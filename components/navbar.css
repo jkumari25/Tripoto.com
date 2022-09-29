@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: circularairpro-bold,Helvetica,Arial,sans-serif;
+    font: 14px;
+}
+
+#navbar-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #2f9bdb;
+    width: 100%;
+}
+
+/* .dropdown{
+    list-style: none;
+    text-decoration: none;
+} */
+
+ul{
+    margin-right: 30px;
+    /* background-color: #0eb22c; */
+    padding: 10px;
+    margin-bottom:0px;
+    cursor: pointer;
+    color: white;
+}
+
+ul li{
+    display: inline-block;
+    position: relative;
+    color: black;
+}
+
+ul li a{
+    display: block;
+    padding: 5px 15px;
+    /* line-height: 70px; */
+
+}
+
+ul ul{
+    position: absolute;
+    display: flex;
+    flex-direction:column;
+    top: 20px;
+    border: 1px solid rgba(121, 117, 117, 0.59);
+    visibility: hidden;
+    line-height: 30px;
+    width: 200px;
+    margin-left: -65px;
+    z-index: -1;
+    padding-top: 20px;
+    transition-delay: .2s;
+    border-radius: 5px;
+}
+
+ul li:hover ul{
+    visibility: visible;
+    /* transition-delay: 1s; */
+}
+
+input,button{
+    border: none;
+    outline: none;
+    height: 40px;
+}
+input{
+    cursor: text;
+    /* margin: 9px 0px 9px 10px; */
+    width: 450px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-left: 10px;
+}
+
+button{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: white !important;
+    padding: 5px;
+}
+form{
+    display: flex;
+    flex-direction:row;
+    height: 40px;
+    margin: 9px 10px;
+}
+
+logo-img{
+    height: 0px;
+    margin-left: 10px;
+}
