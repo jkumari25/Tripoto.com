@@ -1,17 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Document</title>
-        <script src="https://kit.fontawesome.com/80506f962a.js" crossorigin="anonymous"></script>
-        <link rel="stylesheet" href="./footer.css">
-    </head>
-
-    <body>
-        <div id="footer-container">
+function footer() {
+    return `<div id="footer-container">
             <div class="for-width">
                 <div class="foot-social-div">
                     <div>
@@ -82,7 +70,7 @@
             </div>
         </div>
         <div class="foot-end">© All rights
-            reserved.</div>
-    </body>
+            reserved.</div>`
+}
 
-</html>
+export default footer;
