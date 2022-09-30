@@ -9,9 +9,14 @@
     text-rendering: optimizeSpeed;
 }
 
+/* #navbar{
+    position: sticky;
+    top: 0;
+} */
 #navbar{
     z-index: 100;
 }
+
 .form-non-visible{
     visibility:hidden;
 }
