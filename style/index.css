@@ -160,7 +160,7 @@ h3{
   } 
   .item>p{
     padding-left: 8px;
-    font-weight: 200;
+    font-weight: 600;
     line-height: 1.5;
   } 
  .top-heading{
@@ -170,7 +170,68 @@ h3{
   span{
     color:rgb(103, 207, 242);
   }
-
+  .items{
+    width:95%;
+    height:auto;
+    /* border:1px solid blue; */
+    margin:auto;
+    border-bottom: 1px solid;
+  }
+  .items>img{
+    width:100%;
+    height:60%;
+    border-radius: 10px;
+  }
+  .items>p{
+    padding-left: 8px;
+    font-weight: 600;
+    line-height: 1.5;
+  } 
+  .titles{
+     color:teal;
+     margin-top:10px;
+     padding-left: 8px;
+  }
+.location{
+    display: flex;
+    justify-content: space-between;
+    margin-top:8px;
+}
+.cont-1{
+    display:flex;
+    width:30%;
+    height:auto;
+    /* border:1px solid red; */
+   color:teal;
+}
+.cont-1>img{
+    width:10%;
+    height:20px;
+    justify-content: space-between;
+    margin-left:-5px;
+}
+.cont-2>button{
+    background-color: rgb(58, 140, 140);
+    border-radius: 10px;
+    color:white;
+    padding:5px;
+    font-weight: 200;
+}
+.price{
+    display: flex;
+    justify-content: space-between;
+    margin-top:10px;
+}
+.book{
+    padding:10px;
+    border:1px solid teal;
+    border-radius: 10px;
+    font-weight: 200;
+    margin-bottom:20px;
+}
+.book>p{
+    margin-top:30px;
+}
 
 /* Tourism Css */
 
