@@ -175,7 +175,7 @@ h3{
     height:auto;
     /* border:1px solid blue; */
     margin:auto;
-    border-bottom: 1px solid;
+    border-bottom: 1px solid rgb(226, 223, 223);
   }
   .items>img{
     width:100%;
