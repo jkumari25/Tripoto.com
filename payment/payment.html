@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+    <style>
+      #data{
+        height: 100%;
+            width: 23%;
+            border: 1px solid black;
+            justify-content: center;
+            padding: 20px 30px;
+            margin-left:70%;
+      }
+        
+        form input{
+          /* align-items: center; */
+          margin-top: 10px;
+          width: 100%;
+          height: 40px;
+          
+        }
+        
+        #count{
+          display: flex;
+       margin-left: 14%;
+       margin-top: -130px;
+       position: absolute;
+       /* padding: 10px; */
+ 
+   
+      }
+      #count button{
+        height: 30px;
+       width: 30px;
+        font-size: 2em;
+        line-height: 20px;
+         cursor: pointer;
+         margin-top: 15px;
+      }
+      #count input{
+        border-radius: 10px;
+        outline: none;
+        width: 100px;
+      }
+
+      #amt{
+        display: flex;
+        justify-content: space-between;
+      }
+      #amt h3{
+        color: rgb(118, 114, 114);
+      }
+      #footer p{
+        text-align: center;
+      }
+      #footer button{
+        width: 100%;
+        background-color:rgb(106, 106, 192);
+        color: white;
+        border: none
+      }
+      #submit{
+        background-color: rgb(12, 154, 210);
+        height: 50px;
+        border: none;
+        font-size: 30px;
+        color: white;
+      }
+      #bigbox{
+        margin-top: -30%;
+        margin-left: 10%;
+      }
+     #aa{
+      /* justify-content: space-between; */
+      display: flex;
+     }
+     #aa h2{
+      margin-left: 35%;
+      margin-top: -10px;
+      color: red;
+     }
+     #night h2{
+      width: 170px;
+      height: 40px;
+      background-color: rgb(29, 107, 79);
+      color: white;
+      /* margin: auto; */
+      padding: auto;
+     }
+     #night{
+      display: flex;
+
+     }
+     #night h3{
+      margin-left: 35%;
+
+     } 
+     #slider {
+   margin: auto;
+   margin-top:-50% ;
+  /* position: absolute; */
+     /* margin-top: -80%; */
+}
+.heaadphoneimg{
+  height: 420px;
+  width: 58%;
+  margin-top:-80% ;
+  /* position: absolute; */
+}
+#foods1{
+  display: flex;
+  /* justify-content: space-around; */
+  gap: 130px;
+  
+}
+#foods2{
+  display: flex;
+  /* justify-content: space-around; */
+  gap: 50px;
+  
+}
+.day1{
+          border: 1px solid black;
+       height: auto;
+       width: 70%;
+          margin-bottom: 20px;
+          padding: 20px;
+        }
+        hr{
+          width: 70%;
+        }
+ 
+    </style>
+</head>
+<body>
+    <!-- form -->
+    <div id="data">
+    <form>
+      <h2 style="text-align: center; font-family: Gill Sans, sans-serif;">Enter Your Details and Proceed To Book</h2>
+      <br>
+      <input type="text" placeholder="Email" id="Email">
+      <br>
+      <input type="text" placeholder="Full Name" id="Name">
+      <br>
+      <input type="number" placeholder="Contact Number" id="Number">
+      <br>
+      <input type="text" placeholder="Departure City" id="city">
+      <br>
+      <input type="date" placeholder="Check In Date" id="date">
+      <br>
+   
+       <br>
+       <h3>Type of room</h3>
+       <br>
+       <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" Default style="width:20px ;height: 20px;margin-top: -8px;" >
+        <label class="form-check-label" for="flexCheckDefault">
+            Deluxe room on twin sharing basis
+        </label>
+      </div>
+    
+    
+    <h4 style="width:70% ; text-align: center;color: rgb(116, 114, 114);" >Number Of People <br>
+      <br >
+    <span style="margin-top:-20px ;">(For children upto 6</span>
+    <br> years, there is no extra charge, and half price for kids from 6-12 years)</h4>
+
+    <div id="count">
+        <button type="button" id="add" onClick="onClick()">-</button>
+        <p><a id="clicks" style="font-size: 30px;padding: 10px;">0</a></p>
+        <button type="button"  id="sub" onClick="onClick()">+</button>
+    </div>
+
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" Default style="width:20px ;height: 20px;margin-top: -8px;" >
+      <label class="form-check-label" for="flexCheckDefault">
+          Send me updates for this booking on 
+      </label>
+    </div>
+    <i class="fa fa-whatsapp" style="font-size:24px; color: green;padding:10px 40%;"></i>
+
+    <div id="amt">
+      <h1>Amount:</h1>
+      <h3>Starting <br>
+        From</h3>
+      <h2>Rs: 3740</h2>
+    </div>
+<div id="footer" >
+    <p >Taxes and discounts are calculated at checkout</p>
+
+    <!-- <button ><h1>Next =></h1></button> -->
+    <input type="submit" value="Next" id="submit">
+
+    <p>I accept the Terms of Use and Privacy Policy of Tripoto</p>
+  </div>
+</form>
+  </div>
+
+
+
+
+
+  <!-- new -->
+    
+  <div id="bigbox">
+    <p style="margin-top:-36% ;position: absolute;"> Tour Packages > Learn to Cook a Traditional Rajasthani Meal at a 200 Year-Old Luxury Haveli</p>
+<div id="slider">
+     <img class="heaadphoneimg" src="https://cdn1.tripoto.com/media/filter/nxxl/img/2163002/Image/1638779569_lead_form_b.png" alt="">
+</div>
+
+<h2 style="width:40% ;;">Learn to Cook a Traditional Rajasthani Meal at a 200 Year-Old Luxury Haveli</h2>
+<br>
+<div id="aa">
+  <img src="https://cdn1.tripoto.com/media/filter/mss/img/2165009/UserPhoto/1628574904_tripoto_s_mindful_retreats.jpg"style="border-radius:50px;whith:20px;height:20px" alt=""> Tripoto's Mindful Retreats
+  <h2><i class="fa fa-phone" style="font-size:24px"></i>8046162990</h2>
+</div>
+<br>
+<h2 style="font-weight: bold;">Rating : 4.9   <span style="margin-left: 10px;"> <span class="fa fa-star checked" style="color: rgb(216, 200, 53);"></span><span class="fa fa-star checked" style="color: rgb(216, 200, 53);"></span><span class="fa fa-star checked"style="color: rgb(216, 200, 53);"></span><span class="fa fa-star checked"style="color: rgb(216, 200, 53);"></span></span></h2>
+<h2 style="color: rgb(14, 138, 220);">Read 12 Review</h2>
+<div id="night">
+  
+    <h2>2 Days . 1 Night</h2>
+     <h3>Rs : 3740 / person</h3>
+</div>
+<h3 style="color:grey ;">Location</h3>
+<h3 style="margin-top: -10px;">Rajasthan <button style="width: 6%;height:30px;margin-top:-10px;">+1 more</button></h3>
+<h3 style="color:grey ;">Highlight</h3>
+
+<div id="foods1">
+  <h3> Meals</h3>
+  <h3>Sightseeing</h3>
+  <h3>Hotel</h3>
+  <h3>Guide</h3>
+
+</div>
+<div id="foods2">
+  <h3>Safe to Travel</h3>
+  <h3> Heritage</h3>
+  <h3>Wellness</h3>
+  <h3> Hidden Gem</h3>
+  <h3>Activities Included</h3>
+  
+</div>
+<hr>
+
+
+
+<div style="width: 80%;">
+  <h1>Overview</h1>
+  <p>This winter, take a break from the hustle & bustle of your daily life and soak in the serenity of Mandawa, where time stands still. Tripoto Mindful Retreats have combined the best of a luxury stay along with fun-filled activities that'll make your next getaway a memorable affair. On this luxe cooking retreat, you’ll stay at the 200-year-old Mandawa Kothi and learn how to cook authentic Rajasthani delicacies including Gatte Ki Sabzi and Laal Maas in the royal kitchen! <br>
+    <br>
+
+    Holding on to incredible tales from the past, this Kothi was deserted for decades before its owner Rajendra Singh Palawat finally brought it back to life by renovating it in a way that it still holds on to its uniqueness and royalty. And now, you get to experience it first-hand at this Mindful Retreat. Explore Rajasthan differently this time, book your spot at this culinary getaway!</p>
+
+    <h2>What you will love </h2>
+    <p>
+      <li>Unwinding at a heritage haveli that's now a modern boutique hotel</li>
+      <li>Cooking delicious Rajasthani meals with the chef in the royal kitchen</li>
+      <li>Experiencing local traditional activities like 'Tie and Dye' fabric work, and savoring the taste of dal kachori & local sweets</li>
+    </p>
+    <br>
+    <h2>Where you will stay </h2>
+    <p>
+      <li>You will stay at Mandawa Kothi on a twin-sharing basis, in a Deluxe room.</li>
+      <li>Pets are allowed at this retreat</li>
+      <li>Find Mandawa Kothi on Google Maps here</li>
+    </p>
+    <br>
+    <h2>Why should you book</h2>
+    <p>
+      <li>Flexible booking</li>
+      <li>Lowest price</li>
+      <li>Unique opportunity to learn how to make delicious Rajasthani Cuisine in the royal kitchen</li>
+    </p>
+    <br>
+    <h2>What will you experience</h2>
+    <p>
+      <h3>An experiential royal stay</h3>
+      <p>– A luxurious stay in a heritage Haveli complemented with delectable cuisine</p>
+      <p style="width:60% ;">– Learn to make the exquisite Rajasthani meal in the royal kitchen. (Veg items would include the famous Dahi Baingan, Gatte Ki Sabzi, Lassan ki chutney & non-veg items include Laal Maas, Chicken Jai Singh, etc)</p>
+      <p>– Savour the dinner in the beautiful ambiance of the haveli with pretty lighting and a bonfire.</p>
+    </p>
+    <br>
+    <h2>Cultural exploring</h2>
+    <p>
+      
+      <p>– Take a tour of hidden gems including fresco-laden streets and local markets, that are perfect for souvenir shopping.</p>
+      <p >– A heritage walk with a professional guide to explore the beautiful culture of Shekhawati</p>
+      <p>– You can stop by some of the popular local sweet shops and feel the sugar rush! You can also warm up with a cup of chai and dal kachori.</p>
+      <p>– Explore the age-old lanes of the region, where the famous 'Tie and Dye' fabrics are made by people who've been doing this for generations</p>
+    </p>
+    <br>
+    <h2>  How to reach</h2>
+    <p>
+      <li> <span style="font-weight:bold ;">By Road:</span>  Mandawa Kothi can be reached by road from Delhi (262 km) and Jaipur (170 km).</li>
+      <li> <span style="font-weight:bold ;">By Train:</span>  The nearest railway stations are Churu and Sikar. From there, you can take a cab to reach the Kothi</li>
+      <li> <span style="font-weight:bold ;">By Air:</span>  The nearest airport is Jaipur Airport, 170 km away from the property It takes about 3 hours from the airport to reach Mandawa.</li>
+    </p>
+</div>
+<hr>
+
+
+<h1>Itinerary</h1>
+<!-- <h1>Itinerary</h1> -->
+<div class="day1">
+  <details>
+    <summary>Day 1</summary>
+    <h4>
+  <li>12:00pm: Arrive at the property</li>
+  <br>
+  <li>1:00pm: Enjoy a large spread of authentic local cuisine</li>
+  <br>
+  <li>5:30pm: Rest and enjoy the splendid sunset</li>
+  <br>
+  <li>6:00pm: Join the chef & learn how to make sumptuous Rajasthani Cuisine</li>
+    <br>
+    <li>8:00pm: Enjoy your dinner</li>
+  </h4>
+  </details>
+</div>
+<div class="day1">
+  <details>
+    <summary>Day 2</summary>
+    <h4 >
+     <li>6:00am: Wake up to catch the gorgeous sunrise from the terrace of the Kothi.</li>
+     <br>
+     <li>8:00am: Enjoy a hearty breakfast, followed by a heritage walk</li>
+     <br>
+<li>9:30am: Continue your explorations as we take you through some of the age-old lanes of the region, where the </li>
+<br>
+<li>12:00pm: Time to say goodbye to the royal vibes and depart for home.</li>
+<br>
+  </h4>
+  </details>
+</div>
+<h2>Hotel Details</h2>
+        <li>Golf Link (3-star) in Shimla, or similar</li>
+        <li>Rajput Royal Cottage (3-star) in Manali, or similar</li><br>
+        <hr><br><br>
+        <h2>Inclusions</h2>
+        <li>Two-way transfer from the railway station/airport</li>
+        <li>Accommodations</li>
+        <li>Meals: 05 breakfast and 05 dinners at all places</li>
+        <li>Welcome drinks on arrival (non-alcoholic)</li>
+        <li>Additional requirement will be at an extra cost</li>
+        <li>Wi-fi connectivity on a complimentary basis</li>
+        <li>All applicable government taxes</li><br>
+        <hr><br><br>
+        <h2>Exclusions</h2>
+        <li>Any airfare, train fare, an overland journey which is not mentioned in the itinerary</li>
+        <li>Guide/entry fees, boating, elephant riding/horse riding etc. during sightseeing</li>
+        <li>Any personal nature items like laundry, bar bills, table bills, camera fee, tips or any other item</li>
+        <li>Room heater at the hotel</li>
+        <li>Any medical/rescue evacuation due to mishaps</li>
+        <li>Optional activities mentioned in the itinerary</li>
+        <li>Any camera, video cam fee</li>
+        <li>5 % GST</li><br>
+        <hr><br><br>
+        <details>
+          <summary>Terms and Conditions</summary>
+          <p> All bookings for Tripoto Mindful Retreats are non-refundable.</p>
+             <p>Bookings are non-transferable</p>
+             <p>In case an experience is canceled, the refund will be processed within 45 days.</p>
+             <p>Hosts alone are responsible for the experiences they provide. Tripoto assumes no liability and is only responsible for making the experiences and host's services available through the Tripoto platform.</p>
+        </details>
+        
+        <details>
+          <summary>Cancellation Policy</summary>
+          <p> All bookings for Tripoto Mindful Retreats are non-refundable.</p>
+        </details>
+<hr>
+  </div>
+
+  <div>
+    
+  </div>
+</body>
+</html>
+<script src="payment.js"></script>
