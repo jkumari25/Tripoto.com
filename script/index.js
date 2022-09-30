@@ -96,3 +96,10 @@ let luxury= () =>{
     })
 }
 luxury();
+
+
+
+let bookhotel=() =>{
+    window.location.href="./payment/payment.html";
+}
+document.querySelectorAll(".book").addEventListener("click",bookhotel)
