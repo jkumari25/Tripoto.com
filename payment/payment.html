@@ -89,7 +89,7 @@
       height: 40px;
       background-color: rgb(29, 107, 79);
       color: white;
-      /* margin: auto; */
+      /* margin; */
       padding: auto;
      }
      #night{
@@ -134,6 +134,60 @@
         hr{
           width: 70%;
         }
+        #comment{
+          height: auto;
+          width: 45%;
+          border: 1px solid black;
+          /* justify-content: center; */
+          margin: auto;
+          margin-top: 10%;
+          padding-left: 5%;
+          
+        }
+        #small{
+          height: auto;
+          width: 90%;
+          border: 1px solid black;
+          background-color: aliceblue;
+          /* margin: auto; */
+        }
+        #small h4{
+       display: flex;
+        }
+        #reciew{
+         /* height: 80px; */
+         width: 90%;
+         border: 1px solid gray;
+         margin-top: 5%;
+        }
+        #reciew label{
+          height: 10px;
+          width: 70%;
+           border: 1px gray;
+             /* padding: 20px; */
+             margin-top: 10px;
+             position: absolute;
+             font-weight: bold;
+        }
+        #reciew input{
+          height: 80px;
+          width: 99%;
+         border: 1px solid gray;
+         margin-top: 5%;
+        }
+        #comm{
+          margin-top: 30px;
+        }
+        #comm h4{
+          margin-top: -9px;
+          position: absolute;
+        }
+        #comm div{
+          height: auto;
+          width: 100%;
+          border: 1px grey;
+        }
+         
  
     </style>
 </head>
@@ -172,9 +226,10 @@
 
     <div id="count">
         <button type="button" id="add" onClick="onClick()">-</button>
-        <p><a id="clicks" style="font-size: 30px;padding: 10px;">0</a></p>
+        <p><a id="click" style="font-size: 30px;padding: 10px;">0</a></p>
         <button type="button"  id="sub" onClick="onClick()">+</button>
     </div>
+    
 
     <div class="form-check">
       <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault" Default style="width:20px ;height: 20px;margin-top: -8px;" >
@@ -209,6 +264,8 @@
     
   <div id="bigbox">
     <p style="margin-top:-36% ;position: absolute;"> Tour Packages > Learn to Cook a Traditional Rajasthani Meal at a 200 Year-Old Luxury Haveli</p>
+
+
 <div id="slider">
      <img class="heaadphoneimg" src="https://cdn1.tripoto.com/media/filter/nxxl/img/2163002/Image/1638779569_lead_form_b.png" alt="">
 </div>
@@ -232,18 +289,18 @@
 <h3 style="color:grey ;">Highlight</h3>
 
 <div id="foods1">
-  <h3> Meals</h3>
-  <h3>Sightseeing</h3>
-  <h3>Hotel</h3>
-  <h3>Guide</h3>
+  <h4><img style= "width:20px; height:20px" src="https://cdn1.tripoto.com/media/filter/tst/img/2/Image/1555425505_meals.png " alt=""> Meals</h4>
+  <h4><img style= "width:20px; height:20px" src="https://cdn1.tripoto.com/media/filter/tst/img/2/Image/1555425508_sightseeing.png " alt="">Sightseeing</h4>
+  <h4><img style= "width:20px; height:20px" src="https://cdn1.tripoto.com/media/filter/tst/img/2/Image/1555425508_hotel.png " alt="">Hotel</h4>
+  <h4><img style= "width:20px; height:20px" src="https://cdn1.tripoto.com/media/filter/tst/img/2/Image/1555425509_guide.png " alt="">Guide</h4>
 
 </div>
 <div id="foods2">
-  <h3>Safe to Travel</h3>
-  <h3> Heritage</h3>
-  <h3>Wellness</h3>
-  <h3> Hidden Gem</h3>
-  <h3>Activities Included</h3>
+  <h4><img style= "width:20px; height:20px" src="https://cdn1.tripoto.com/media/filter/tst/img/2/Image/1592388031_heritage.png" alt="">Safe to Travel</h4>
+  <h4><img style= "width:20px; height:20px" src="https://cdn1.tripoto.com/media/filter/tst/img/2/Image/1592388084_wellness.png " alt=""> Heritage</h4>
+  <h4><img style= "width:20px; height:20px" src="https://cdn1.tripoto.com/media/filter/tst/img/2/Image/1592388038_hidden_gem.png " alt="">Wellness</h4>
+  <h4> <img style= "width:20px; height:20px" src="https://cdn1.tripoto.com/media/filter/tst/img/2/Image/1592387999_activities_included.png" alt="">Hidden Gem</h4>
+  <h4><img style= "width:20px; height:20px" src="https://cdn1.tripoto.com/media/filter/tst/img/2/Image/1592388058_safe_to_travel.png " alt="">Activities Included</h2>
   
 </div>
 <hr>
@@ -376,9 +433,93 @@
 <hr>
   </div>
 
-  <div>
-    
+
+  <!-- comment part -->
+  <div id="comment">
+    <h2>Reviews</h2>
+    <div id="small">
+    <h3>  Rating : 4.9   <span style="margin-left: 10px;"> <span class="fa fa-star checked" style="color: rgb(216, 200, 53);"></span><span class="fa fa-star checked" style="color: rgb(216, 200, 53);"></span><span class="fa fa-star checked"style="color: rgb(216, 200, 53);"></span><span class="fa fa-star checked"style="color: rgb(216, 200, 53);"></span></span>
+      <h4>Average Rating</h4> 
+      <h4 style="margin-left:87% ; margin-top:-11%">12 Review</h4>
   </div>
+ <div id="reciew">
+  <label >Your Review</label>
+  
+  <br>
+  <input type="text" name="" id="" placeholder="Want to share experience?">
+ </div>
+ <button style="background-color: cornflowerblue; height: 40px;width:60px ;font-size: 15px; color: aliceblue; border: none; margin-top: 30px; border-radius: 5px;">Post</button>
+ <br>
+ <hr>
+ <div id="comm">
+  <div>
+  <h4>Marry Osborne</h4>
+  <span style="margin-top:10px;position: absolute; display: flex;height: 10px;width: 10px;"> <span class="fa fa-star checked" style="color: rgb(216, 200, 53);"></span><span class="fa fa-star checked" style="color: rgb(216, 200, 53);"></span><span class="fa fa-star checked"style="color: rgb(216, 200, 53);"></span><span class="fa fa-star checked"style="color: rgb(216, 200, 53);"></span>
+ </div>
+ <br>
+
+ <p>UPGRADE YOUR CREDIT SCORE!!!
+
+  NO UPFRONT FEES</p>
+  <br>
+  <hr>
+</div> 
+<div id="comm">
+  <div>
+  <h4>Jahanvi Goel</h4>
+  <span style="margin-top:10px;position: absolute; display: flex;height: 10px;width: 10px;"> <span class="fa fa-star checked" style="color: rgb(216, 200, 53);"></span><span class="fa fa-star checked" style="color: rgb(216, 200, 53);"></span><span class="fa fa-star checked"style="color: rgb(216, 200, 53);"></span><span class="fa fa-star checked"style="color: rgb(216, 200, 53);"></span>
+ </div>
+ <br>
+
+ <p>It's a beautiful property. Outstanding ambience. It is definitely is winter visit though. Some improvements: Maybe the loo can be better ventilated. The transition to generator can be more seamless and</p>
+  <br>
+  <hr>
+</div> 
+<div id="comm">
+  <div>
+  <h4>Deepika Tanwar </h4>
+  <span style="margin-top:10px;position: absolute; display: flex;height: 10px;width: 10px;"> <span class="fa fa-star checked" style="color: rgb(216, 200, 53);"></span><span class="fa fa-star checked" style="color: rgb(216, 200, 53);"></span><span class="fa fa-star checked"style="color: rgb(216, 200, 53);"></span><span class="fa fa-star checked"style="color: rgb(216, 200, 53);"></span>
+ </div>
+ <br>
+
+ <p>It was amazing stay...the location is lovely, rooms were beautiful and clean. Food was good</p>
+  <br>
+  <hr>
+</div> 
+<div id="comm">
+  <div>
+  <h4>Isha Saxena</h4>
+  <span style="margin-top:10px;position: absolute; display: flex;height: 10px;width: 10px;"> <span class="fa fa-star checked" style="color: rgb(216, 200, 53);"></span><span class="fa fa-star checked" style="color: rgb(216, 200, 53);"></span><span class="fa fa-star checked"style="color: rgb(216, 200, 53);"></span><span class="fa fa-star checked"style="color: rgb(216, 200, 53);"></span>
+ </div>
+ <br>
+
+ <p>This is an absolutely beautiful haveli, very well maintained with all the amenities. The staff is very accommodating as well. They have a gorgeous terrace which they set up with comforters and pillows for you</p>
+  <br>
+  <hr>
+</div> 
+<div id="comm">
+  <div>
+  <h4>Madhuri</h4>
+  <span style="margin-top:10px;position: absolute; display: flex;height: 10px;width: 10px;"> <span class="fa fa-star checked" style="color: rgb(216, 200, 53);"></span><span class="fa fa-star checked" style="color: rgb(216, 200, 53);"></span><span class="fa fa-star checked"style="color: rgb(216, 200, 53);"></span><span class="fa fa-star checked"style="color: rgb(216, 200, 53);"></span>
+ </div>
+ <br>
+
+ <p>Good experience, host is very helpful</p>
+  <br>
+  <hr>
+</div> 
+
+
+  </div>
+
+
+  
+   
+
+
+
+
+
 </body>
 </html>
 <script src="payment.js"></script>
