@@ -1,7 +1,13 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
 *{
     padding:0;
     margin:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
+
 #top-image{
     width:100%;
     height:400px;
@@ -73,13 +79,6 @@
 .relative-pointer>div>img{
     width:100%;
 }
-.relative-pointer-bottom{
-    width:70%;
-    height:auto;
-    /* border:1px solid red; */
-    margin:auto;
-    margin-top: 50px;
-}
 #relative-top>h2{
     font-size:30px;
     font-family: circularairpro-bold,Helvetica,Arial,sans-serif;
@@ -130,4 +129,125 @@ h3{
     font-weight: 700;
     font-size: 18px;
     color:#333;
+}
+/* ****************************************** */
+/* Partnership Slider Css */
+
+.relative-pointer-bottom{
+    display:flex;
+    height:auto;
+    width:70%;
+    /* border:1px solid red; */
+    margin:auto;
+    margin-top: 50px;
+   margin-bottom: 40px;
+}
+.item{
+    width:95%;
+    height:350px;
+    /* border:1px solid blue; */
+    margin:auto;
+}
+  .item>img{
+    width:100%;
+    height:60%;
+    border-radius: 10px;
+  }
+  .title{
+    color:rgb(235, 80, 80);
+    margin-top:10px;
+    padding-left: 8px;
+  } 
+  .item>p{
+    padding-left: 8px;
+    font-weight: 200;
+    line-height: 1.5;
+  } 
+ .top-heading{
+    margin-top:60px;
+    margin-left:300px;
+  } 
+  span{
+    color:rgb(103, 207, 242);
+  }
+
+
+/* Tourism Css */
+
+.tourism-image{
+    width:70%;
+    height:auto;
+    /* border:1px solid red; */
+    margin:auto;
+    margin-bottom: 40px;
+}
+.tourism-image>img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    border-radius:10px;
+}
+.tourism-image>p{
+    margin-top:20px;
+    line-height: 1.5;
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 60px;
+}
+#post-tourism{
+    width:70%;
+    height:auto;
+    /* border:1px solid red; */
+    margin:auto;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-bottom:50px;
+}
+.tour{
+    width:90%;
+    height:100%;
+    margin:auto;
+    /* border:1px solid blue; */
+    text-align: center;
+    
+}
+.tour>img{
+    width:100%;
+    height:200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.tour>p{
+    font-weight: 100;
+    line-height: 1.5;
+}
+
+/* Luxury-stay CSS */
+
+#luxury-stay{
+    width:70%;
+    height:auto;
+    /* border:1px solid red; */
+    margin:auto;
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    margin-bottom:50px;
+}
+.stay{
+    width:90%;
+    height:100%;
+    margin:auto;
+    /* border:1px solid blue; */
+    text-align: center;
+    margin-top:40px;
+}
+.stay>img{
+    width:100%;
+    height:200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.stay>p{
+    font-weight: 100;
+    line-height: 1.5;
 }
