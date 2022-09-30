@@ -18,6 +18,34 @@ let tourismData=[
     
 ];
 
+let luxuryData=[
+    {
+        image_url:"https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1664284466_1501572387_vedicvillage1.jpg",
+        description:"Unwind At The Vedic Village Spa Resort In Kolkata",
+        title:"LUXURY STAYS",
+        review:"By  Aakanksha Magan"
+    },
+    {
+        image_url:"https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1664284743_1633518714_267103469.jpg",
+        description:"This Hotel In Kolkata Overlooks Victoria Memorial",
+        title:"LUXURY STAYS",
+        review:"By  Kadambari Bhatte (curlytravelmess)"
+    },
+    {
+        image_url:"https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1661513462_1661510413_pench.jpg",
+        description:"Stay At These Incredible Eco-Friendly Resorts In India",
+        title:"LUXURY STAYS",
+        review:"By  Tanvi Shah"
+    },
+    {
+        image_url:"https://cdn1.tripoto.com/media/filter/tst/img/2215463/Image/1664285490_1504715462_29636144.jpg",
+        description:"Fall In Love At Mayfair,Darjeeling",
+        title:"LUXURY STAYS",
+        review:"By  Sonalika Debnath"
+    },
+
+]
+
 
 
 let product= ()=>{
@@ -31,7 +59,7 @@ let product= ()=>{
      let img= document.createElement("img");
      img.src=image_url;
 
-     let desc= document.createElement("h3");
+     let desc= document.createElement("p");
      desc.innerText= description;
 
      div.append(img,desc);
@@ -39,3 +67,32 @@ let product= ()=>{
     })
 }
 product();
+
+let luxury= () =>{
+
+    let container= document.getElementById("luxury-stay");
+    container.innerHTML=null;
+
+    luxuryData.forEach(({image_url,title,description,review}) =>{
+       
+        let div= document.createElement("div");
+        div.setAttribute("class","stay");
+
+        let img= document.createElement("img");
+        img.src= image_url;
+
+        let t1= document.createElement("h3");
+        t1.innerText= title;
+
+        let desc= document.createElement("p");
+        desc.innerText= description;
+
+        let rev= document.createElement("p");
+        rev.innerText= review;
+
+        div.append(img,t1,desc,rev);
+        container.append(div);
+
+    })
+}
+luxury();
