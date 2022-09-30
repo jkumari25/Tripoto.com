@@ -1,0 +1,48 @@
+#signin-container {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    margin: auto;
+    margin-top: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+    gap: 10px;
+}
+.face-book {
+    width: 90%;
+    padding: 10px;
+    background-color: blue !important;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px !important;
+}
+.goo-gle{
+    color: black !important;
+    font-size: 16px;
+    display:flex !important;
+    width: 90%;
+    padding:10px;
+    border: 1px solid black !important;
+    align-items: center;
+    margin: auto;
+    border-radius: 5px !important;
+
+}
+.goo-gle img{
+    width: 20px;
+    height: 20px;
+    display: flex;  
+    border: 1px solid black !important;
+    
+}
+.goo-gle p{
+    margin: 0;
+    margin-left: 5px;
+    text-align: center;
+} 
+
