@@ -30,36 +30,35 @@ document.getElementById("submit").onclick = function () {
   location.href = "checkout.html";
 };
  function Product(name,price,city,date,count){
-  this.city=city;
-  this.name=name;
-  this.price=price;
+   this.name=name;
+   this.price=price;
+   this.city=city;
   // this.image=image;
   this.date=date;
   this.count=count;
-  thi
+  
 }
 
 function adddata(){
   event.preventDefault()
   // console.log("data")
 
-  let brand=document.getElementById("Email").value;
-
+  let email=document.getElementById("Email").value;
   let name=document.getElementById("Name").value;
   let price=document.getElementById("Number").value;
   let city=document.getElementById("city").value;
   let date=document.getElementById("date").value;
   let count=document.getElementById("count").value;
 
-  console.log(brand,name,price,city)
+  // console.log(brand,name,price,city)
 
-  let productdata=new Product(brand,name,price,city,date,count)
+  let productdata=new Product(email,name,price,city,date,count)
 
-  let data=JSON.parse(localStorage.getItem("prodata"))||[]
+  let products=JSON.parse(localStorage.getItem("products"))||[]
 
-  data.push(productdata)
+  products.push(productdata)
 
-  localStorage.setItem("prodata",JSON.stringify(data))
+  localStorage.setItem("products",JSON.stringify(products))
 }
 
 
