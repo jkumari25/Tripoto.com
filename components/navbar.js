@@ -26,7 +26,8 @@ function navbar(){
                             <li><a>Explore More</a></li>
                         </ul>
                     </li>
-                    <li><a class="headings">Forum</a>
+
+                    <li><a class="headings" href="forum.html">Forum</a>
                     </li>
                     <li><a class="headings">Packages</a></li>
                     <li><a class="headings">Publish Trip <i style="color: aliceblue;" class="fa-solid fa-caret-down"></i></a>

@@ -222,14 +222,14 @@ h3{
     justify-content: space-between;
     margin-top:10px;
 }
-.book{
+#book{
     padding:10px;
     border:1px solid teal;
     border-radius: 10px;
     font-weight: 200;
     margin-bottom:20px;
 }
-.book>p{
+#book>p{
     margin-top:30px;
 }
 
