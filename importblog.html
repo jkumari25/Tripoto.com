@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/importblog.css">
+    <link rel="stylesheet" href="./components/navbar.css">
+    <link rel="stylesheet" href="./components/navbar1.css">
+    <link rel="stylesheet" href="./components/footer.css">
+    <!-- <link rel="stylesheet" href="./components/navbar1.css"> -->
+    <script src="https://kit.fontawesome.com/80506f962a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="v_navbar"></div>
+    <div id="upload-container">
+        <div id="create-upload">
+            <h1>UPLOAD YOUR BLOG ON TRIPOTO AND BE DISCOVERED BY MILLIONS OF TRAVELLERS</h1>
+            <div>
+                <h2>How it works</h2>
+                <h2>
+                    <p>Submit the link of the story you want on Tripoto. This should not be the homepage of your blog, but a link to a specific story. For example: http://windsoftravel.com/destinations/india/himalachal-pradesh-motorcycle-stories/</p>
+                    <p>That's it! You're all done.</p>
+
+                </h2>
+                <div id="note">
+                    <b>Note:</b>
+                    All content you submit will remain your own, and will be posted on social media under your name.
+                    <br>
+                </div>
+            </div>
+            <div id="div-input">
+                <input type="text" placeholder="Enter Blog Link" id="blog">
+                <hr>
+                <br>
+                <label for="" >This feild is required</label>
+                <br>
+                <input type="submit" value="submit" id="enter">
+            </div>
+            <div id="last-div">
+                <br>
+                Once you hit ‘Submit’, you will be redirected to your imported blog. Feel free to use our formatting tools to make your story look even better!
+            </div>
+        </div>
+        <img id="blog-img" src="https://cdn.tripoto.com/210.0/img/blog_to_itinerary/mnt.png" alt="">
+    </div>
+    <div id="v_footer"></div>
+</body>
+</html>
+<script type="module">
+    import navbar from "./components/navbar.js"
+    document.getElementById("v_navbar").innerHTML = navbar()
+    import footer from "./components/footer.js"
+    document.getElementById("v_footer").innerHTML = footer()
+</script>
