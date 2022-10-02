@@ -36,7 +36,7 @@ function navbar(){
                             <li><a>Import Blog</a></li>
                         </ul>
                     </li>
-                    <li><a>Sign in</a></li>
+                    <li><a href="./signup&login.html">Sign in</a></li>
                 </ul>
             </div>
 
