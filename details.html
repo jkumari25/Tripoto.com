@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/details.css">
+    <script src="https://kit.fontawesome.com/982a0f18e5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="container">
+        
+    </div>
+    <div>
+        <h3>We are very glad to present your experince in our platform</h3>
+    </div>
+</body>
+</html>
+
+<script>
+    let url = "data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='36' height='32'%3e %3cpath fill='%23FF855C' fill-rule='evenodd' d='M25.485 0c5.584 0 10.1278 4.5407 10.1278 10.1285 0 2.6548-1.0192 5.1654-2.8727 7.0665L20.0685 30.992C19.4702 31.6401 18.669 32 17.8053 32c-.8608 0-1.665-.3568-2.2632-1.0079L2.8644 17.189C1.017 15.2886 0 12.7802 0 10.1285 0 4.5437 4.5415 0 10.1255 0c2.9738 0 5.7644 1.2968 7.6798 3.5215C19.7177 1.2968 22.5029 0 25.485 0zM9.6998 2.937c-3.7014 0-6.7101 3.011-6.7101 6.7125 0 .5604.4572 1.0177 1.0177 1.0177.5572 0 1.0144-.4573 1.0144-1.0177 0-2.5797 2.0975-4.678 4.678-4.678.5604 0 1.0168-.4564 1.0168-1.0177 0-.5604-.4564-1.0168-1.0168-1.0168z'/%3e %3c/svg%3e"
+
+    let details = JSON.parse(localStorage.getItem("userdetails")) || [];
+    let append = (data) => {
+        let container = document.getElementById("container")
+        container.innerHTML = null;
+        data.forEach(({title,story,start,duration,amount,addimage}) => { 
+            let div = document.createElement("div")
+            div.setAttribute("class","div")
+            let name = document.createElement("h2")
+            name.innerText = `TRIP NAME: ${title}`;
+            let blog = document.createElement("p")
+            blog.innerText =  `BLOG STORY: ${story}`;
+            let time = document.createElement("p")
+            time.innerText = `TRIP START DATE: ${start}`;
+            let days = document.createElement("p")
+            days.innerText = `DURATION: ${duration}`;
+            let price = document.createElement("p")
+            price.innerText = `PRICE: ${amount}`
+            // let image = document.createElement("img");
+            // image.src = addimage
+
+            div.append(name,time,blog,days,price)
+            container.append(div)
+        });
+    }
+    append(details)
+</script>
