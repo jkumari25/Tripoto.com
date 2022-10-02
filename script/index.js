@@ -99,12 +99,12 @@ luxury();
 
 // adding event listener to button:-
 
-
+let elements= document.querySelectorAll(".price>button");
 // adding the event listener by looping
 
 elements.forEach(function(ele) {
     ele.addEventListener('click', function() {
-        location.href ="../payment.html";
+        location.href ="./payment.html";
         
     });
 })
