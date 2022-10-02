@@ -10,8 +10,8 @@ function navbar(){
             </div>
             <div class="nav-dropdown">
                 <ul>
-                    <li ><a >Inspirations <i style="color: aliceblue;" class="fa-solid fa-caret-down"></i></a>
-                        <ul>
+                    <li><a class="headings">Inspirations <i style="color: aliceblue;" class="fa-solid fa-caret-down"></i></a>
+                        <ul class="inner-list">
                             <li><a>Visit Singapore</a></li>
                             <li><a>Beaches</a></li>
                             <li><a>Mountains</a></li>
@@ -26,17 +26,17 @@ function navbar(){
                             <li><a>Explore More</a></li>
                         </ul>
                     </li>
-                    <li><a >Forum</a>
+                    <li><a class="headings">Forum</a>
                     </li>
-                    <li><a>Packages</a></li>
-                    <li><a>Publish Trip <i style="color: aliceblue;" class="fa-solid fa-caret-down"></i></a>
-                        <ul>
+                    <li><a class="headings">Packages</a></li>
+                    <li><a class="headings">Publish Trip <i style="color: aliceblue;" class="fa-solid fa-caret-down"></i></a>
+                        <ul class="inner-list">
                             <li><a href="createnew.html">Create New</a></li>
                             <li><a href="upload.html">Upload Photos/Videos</a></li>
                             <li><a href="importblog.html">Import Blog</a></li>
                         </ul>
                     </li>
-                    <li><a href="./signup&login.html">Sign in</a></li>
+                    <li><a class="headings" href="./signup&login.html">Sign in</a></li>
                 </ul>
             </div>
 
