@@ -1,4 +1,4 @@
-* {
+/* * {
 	margin: 0;
 	padding: 0;
 	text-decoration: none;
@@ -6,7 +6,7 @@
 	text-rendering: optimizeSpeed;
 	color: #333;
 	margin-top: 15px;
-}
+} */
 #footer-container {
 	border-top: 1px solid #dcdfe0;
 }

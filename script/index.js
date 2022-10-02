@@ -97,21 +97,16 @@ let luxury= () =>{
 }
 luxury();
 
-document.getElementById("book").addEventListener("click",bookhotel)
+// adding event listener to button:-
 
-function bookhotel(){
-  window.location.href="payment.html"
-}
+let elements = document.querySelectorAll(".price>button");
 
+// adding the event listener by looping
 
-// let elements = document.querySelectorAll("#big-container>div");
-
-// // adding the event listener by looping
-
-// elements.forEach(function(ele) {
-//     ele.addEventListener('click', function() {
-//         location.href ="blog.html";
+elements.forEach(function(ele) {
+    ele.addEventListener('click', function() {
+        location.href ="../payment.html";
         
-//     });
-// })
+    });
+})
 
