@@ -8,80 +8,74 @@
 	margin-top: 15px;
 } */
 #footer-container {
-	border-top: 1px solid #dcdfe0;
+  border-top: 1px solid #dcdfe0;
 }
 #footer-container .for-width {
-	display: grid;
-	grid-template-columns: 20% auto;
-	margin: auto;
-	border-top: 1px;
+  display: grid;
+  grid-template-columns: 20% auto;
+  margin: auto;
+  border-top: 1px;
 }
 .for-width {
-	width: 95%;
+  width: 95%;
 }
 .footer-inner-div {
-	display: grid;
-	grid-template-columns: repeat(4, 1fr);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
 #footer-container,
 .footer-inner-div {
-	gap: 40px;
+  gap: 40px;
 }
 
 .footer-inner-div a {
-	display: block;
-	margin: 8px 0;
-	font-size: 12px;
-	font-weight: 300;
-	line-height: 18px;
-	background-color: transparent;
-	cursor: pointer;
-	letter-spacing: 0.3px;
+  display: block;
+  margin: 8px 0;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 18px;
+  background-color: transparent;
+  cursor: pointer;
+  letter-spacing: 0.3px;
 }
 
 .foot-headings {
-	font-size: 16px;
-	line-height: 30px;
-	letter-spacing: 0.3px;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.3px;
 }
 .foot-social-div,
 .foot-end {
-	font-size: 12px;
-}
-hr {
-	width: 75%;
-	margin-bottom: -23px;
-	color: #dcdfe0;
-	margin-top: 10px;
+  font-size: 12px;
 }
 .foot-social-icons {
-	display: flex;
-	gap: 5px;
+  display: flex;
+  gap: 5px;
 }
 .foot-social-icons i:hover {
-	color: #2f9bdb;
-	cursor: pointer;
+  color: #2f9bdb;
+  cursor: pointer;
 }
 .foot-social-div img {
-	margin-bottom: -10px;
-	vertical-align: middle;
-	height: 40px;
-	cursor: pointer;
+  margin-bottom: -10px;
+  vertical-align: middle;
+  height: 40px;
+  cursor: pointer;
 }
 .google-play-icon {
-	width: 120px;
+  width: 120px;
 }
 .foot-end {
-	text-align: center;
+  text-align: center;
 }
 .foot-end {
-	border-top: 1px solid #dcdfe0;
-	width: 90%;
-	margin: auto;
-	margin-top: 20px;
-	padding-top: 20px;
+  border-top: 1px solid #dcdfe0;
+  width: 90%;
+  margin: auto;
+  margin-top: 20px;
+  padding-top: 20px;
 }
-.foot-social-div p:hover{
-cursor: pointer;
-color: #2f9bdb;
+.foot-social-div p:hover {
+  cursor: pointer;
+  color: #2f9bdb;
 }
