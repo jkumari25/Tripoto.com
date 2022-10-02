@@ -1,0 +1,102 @@
+#navbar {
+  background-color: #2f9bdb;
+}
+#container {
+  width: 85%;
+  margin-left: 130px;
+  /* display: flex; */
+}
+#left {
+  /* border: 1px solid red; */
+  width: 60%;
+  float: left;
+}
+#right {
+  width: 30%;
+  float: right;
+  margin-top: 30px;
+}
+img {
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+}
+.con div,
+h3 {
+  padding: 10px;
+}
+#img_name {
+  display: flex;
+}
+.imgname {
+  display: flex;
+  justify-content: space-between;
+}
+.imgname h4 {
+  margin-top: 6px;
+  width: 300px;
+}
+.imgname img,
+h4 {
+  padding: 2px;
+}
+.imgname p {
+  font-size: small;
+  color: grey;
+}
+.imgname button {
+  font-size: small;
+  color: #2f9bdb;
+  margin-left: 470px;
+  border: 1px solid #2f9bdb;
+  background-color: white;
+  height: 20px;
+  font-size: 10px;
+  width: 50px;
+  padding: 5px;
+  border-radius: 13%;
+}
+
+.buttoncon {
+  display: flex;
+  margin-left: 30px;
+}
+.buttoncon div {
+  display: flex;
+  padding: 10px;
+}
+.buttoncon img {
+  height: 20px;
+  width: 20px;
+}
+.buttoncon h6 {
+  margin-top: 6px;
+}
+
+.com {
+  border-left: 3px solid #2f9bdb;
+  margin-bottom: 30px;
+}
+.com div,
+h3 {
+  padding: 10px;
+}
+.com p {
+  margin-left: 30px;
+  font-weight: lighter;
+}
+.content h3 {
+  margin-left: 30px;
+}
+#r_con {
+  margin-left: 30px;
+}
+#rh {
+  margin-left: 30px;
+}
+#rupper {
+  border-radius: 3%;
+  height: 135px;
+  background-color: #d9f1ff;
+  margin-bottom: 20px;
+}

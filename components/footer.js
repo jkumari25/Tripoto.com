@@ -1,5 +1,5 @@
 function footer() {
-    return `<div id="footer-container">
+  return `<div id="footer-container">
             <div class="for-width">
                 <div class="foot-social-div">
                     <div>
@@ -70,7 +70,7 @@ function footer() {
             </div>
         </div>
         <div class="foot-end">© All rights
-            reserved.</div>`
+            reserved.</div>`;
 }
 
 export default footer;

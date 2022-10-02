@@ -1,5 +1,5 @@
-function navbar(){
-    return `<div id="navbar-container">
+function navbar() {
+  return `<div id="navbar-container">
             <img class="logo-img" src="https://cdn1.tripoto.com/assets/2.9/img/logo/tripoto.svg"
                 alt="logo">
             <div id="in-visible">
@@ -26,7 +26,7 @@ function navbar(){
                             <li><a>Explore More</a></li>
                         </ul>
                     </li>
-                    <li><a href="signup&login.html">Forum</a>
+                    <li><a id="foum_a" href="forum.html">Forum</a>
                     </li>
                     <li><a>Packages</a></li>
                     <li><a>Publish Trip <i style="color: aliceblue;" class="fa-solid fa-caret-down"></i></a>
