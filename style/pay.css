@@ -1,0 +1,105 @@
+* {
+    font-family: century-gothic, sans-serif;
+}
+   #main{
+    width: 45%;
+    height: auto;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    padding: 20px;
+}
+#num>button{
+    height: 50px;
+    border: 0px;
+    width: 100px;
+    margin-left: 180px;
+}
+#num>button:hover{
+    border:1px blue;
+    cursor: pointer;
+}
+#num>button>a>img{
+    width: 100%;
+    height: 100%;
+}
+#first>h4{
+    color: gray;
+    font-weight: lighter;
+    margin-left: 20px;
+}
+#cardimg{
+    display: flex;
+    gap: 190px;
+}
+#cardimg>div>h4{
+    font-weight: lighter;
+}
+#card{
+    display: flex;
+    height: 30px;
+    width: 30px;
+    gap: 0px;
+    margin-top: 10px;
+}
+#card>img{
+    height: 100%;
+    width: 100%;
+}
+#cardinfo
+{
+    display: grid;
+    grid-template-columns: repeat(2,30%);
+    grid-template-rows: repeat(2,40px);
+    gap:20px;
+    justify-content: center;
+}
+#cardinfo>input{
+    border-radius: 5px;
+    border: 1px solid gray;
+    padding-left:8px ;
+    width: 100%;
+}
+#cardinfo>input:first-child{
+    grid-area: 1/1/2/3;
+}
+#unionp>img{
+    height:50px;
+    margin-top: 40px;
+}
+#end>p{
+    color: gray;
+    margin-left:10px;
+}
+#cont+p{
+    text-align: center;
+    font-size: 15px;
+}
+#cont{
+    font-weight: bold;
+    margin-left: 0px;
+    border: 0px;
+    color: white;
+    background-color: rgb(54, 54, 54);
+    padding: 10px 120px 10px 120px;
+    width: 100%;
+}
+#cont:hover{
+    background-color: black;
+    cursor: pointer;
+}
+#product{
+    border: 1px solid red;
+}
+#num{
+   display: flex;
+   gap: 10px;
+   align-items: center;
+   margin-bottom: -10px;
+}
+#num>div{
+   border:1px solid black; 
+   border-radius: 50px;
+   padding: 5px 10px;
+   background-color: black;
+   color: white;
+}
