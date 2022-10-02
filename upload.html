@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/upload.css">
+    <link rel="stylesheet" href="./components/navbar.css">
+    <link rel="stylesheet" href="./components/navbar1.css">
+    <link rel="stylesheet" href="./components/footer.css">
+    <script src="https://kit.fontawesome.com/982a0f18e5.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/80506f962a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="g_navbar"></div>
+    <div id="main-container">
+        <div id="upload-container">
+            <input type="text" placeholder="Add A title to tour blog" id="blog">
+            <br>
+            <hr>
+            <i class="fa-solid fa-location-dot"></i><input type="text" placeholder="Add Location" id="location">
+            <br>
+            <div id="image-container">
+                <input type="file" placeholder="image">
+            </div>
+        </div>
+    </div>
+    <div id="button-div">
+        <button style="background-color: #ffffff; color:#2f9bdb; border: 1px solid transparent;">+Upload photos/videos</button>
+        <button>Publish</button>
+    </div>
+    <div id="g_footer"></div>
+</body>
+</html>
+<script type="module">
+    import navbar from "./components/navbar.js"
+    console.log(navbar())
+    document.getElementById("g_navbar").innerHTML = navbar()
+    import footer from "./components/footer.js"
+    document.getElementById("g_footer").innerHTML = footer()
+</script>
+
+
+  
