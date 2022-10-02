@@ -26,7 +26,7 @@ function navbar(){
                             <li><a>Explore More</a></li>
                         </ul>
                     </li>
-                    <li><a >Forum</a>
+                    <li><a href="forum.html">Forum</a>
                     </li>
                     <li><a>Packages</a></li>
                     <li><a>Publish Trip <i style="color: aliceblue;" class="fa-solid fa-caret-down"></i></a>
@@ -36,7 +36,7 @@ function navbar(){
                             <li><a>Import Blog</a></li>
                         </ul>
                     </li>
-                    <li><a>Sign in</a></li>
+                    <li><a signup&login.html>Sign in</a></li>
                 </ul>
             </div>
 
