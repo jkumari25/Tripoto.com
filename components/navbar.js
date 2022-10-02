@@ -31,9 +31,9 @@ function navbar(){
                     <li><a>Packages</a></li>
                     <li><a>Publish Trip <i style="color: aliceblue;" class="fa-solid fa-caret-down"></i></a>
                         <ul>
-                            <li><a>Create New</a></li>
-                            <li><a>Upload Photos/Videos</a></li>
-                            <li><a>Import Blog</a></li>
+                            <li><a href="createnew.html">Create New</a></li>
+                            <li><a href="upload.html">Upload Photos/Videos</a></li>
+                            <li><a href="importblog.html">Import Blog</a></li>
                         </ul>
                     </li>
                     <li><a href="./signup&login.html">Sign in</a></li>
