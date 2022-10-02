@@ -10,7 +10,7 @@
 
 #top-image{
     width:100%;
-    height:400px;
+    height:300px;
     background-image: url("https://cdn1.tripoto.com/assets/2.9/img/home_banner_road.jpg");
     background-position: center;
     /* background-size: cover; */
@@ -29,12 +29,12 @@
     border-radius: 8px;
 }
 .search-bar>input{
-   background:transparent ; 
+   /* background:transparent ;  */
    flex:1;
    border:0;
    outline:none;
-   padding:10px;
-   font-size: 18px;
+   padding:5px;
+   font-size: 13px;
    color:black;
    
 }
@@ -48,13 +48,13 @@
     border:0;
     border-radius: 50px;
     width:60px;
-    height:60px;
+    height:40px;
     background-color: #fff;
     cursor: pointer;
 }
 #text-banner{
  color:#fff;
- margin-top:15%;
+ margin-top:10%;
  font-family: inherit;
  font-weight: 600;
  font-size: 36px;
@@ -143,8 +143,8 @@ h3{
    margin-bottom: 40px;
 }
 .item{
-    width:95%;
-    height:350px;
+    width:98%;
+    height:300px;
     /* border:1px solid blue; */
     margin:auto;
 }
@@ -155,7 +155,8 @@ h3{
   }
   .item p{
     font-weight: 100;
-  }  .title{
+  }  
+  .title{
     color:rgb(235, 80, 80);
     margin-top:10px;
     padding-left: 8px;
@@ -167,7 +168,7 @@ h3{
   } 
  .top-heading{
     margin-top:60px;
-    margin-left:300px;
+    margin-left:15%;
   } 
   span{
     color:rgb(103, 207, 242);
