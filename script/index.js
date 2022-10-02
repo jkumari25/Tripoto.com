@@ -97,9 +97,15 @@ let luxury= () =>{
 }
 luxury();
 
+// adding event listener to button:-
 
 
-let bookhotel=() =>{
-    window.location.href="./payment/payment.html";
-}
-document.querySelectorAll(".book").addEventListener("click",bookhotel)
+// adding the event listener by looping
+
+elements.forEach(function(ele) {
+    ele.addEventListener('click', function() {
+        location.href ="../payment.html";
+        
+    });
+})
+
