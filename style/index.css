@@ -10,7 +10,7 @@
 
 #top-image{
     width:100%;
-    height:300px;
+    height:400px;
     background-image: url("https://cdn1.tripoto.com/assets/2.9/img/home_banner_road.jpg");
     background-position: center;
     /* background-size: cover; */
@@ -29,12 +29,12 @@
     border-radius: 8px;
 }
 .search-bar>input{
-   /* background:transparent ;  */
+   background:transparent ; 
    flex:1;
    border:0;
    outline:none;
-   padding:5px;
-   font-size: 13px;
+   padding:10px;
+   font-size: 18px;
    color:black;
    
 }
@@ -48,13 +48,13 @@
     border:0;
     border-radius: 50px;
     width:60px;
-    height:40px;
+    height:60px;
     background-color: #fff;
     cursor: pointer;
 }
 #text-banner{
  color:#fff;
- margin-top:10%;
+ margin-top:15%;
  font-family: inherit;
  font-weight: 600;
  font-size: 36px;
@@ -143,8 +143,8 @@ h3{
    margin-bottom: 40px;
 }
 .item{
-    width:98%;
-    height:300px;
+    width:95%;
+    height:350px;
     /* border:1px solid blue; */
     margin:auto;
 }
@@ -153,9 +153,6 @@ h3{
     height:60%;
     border-radius: 10px;
   }
-  .item p{
-    font-weight: 100;
-  }  
   .title{
     color:rgb(235, 80, 80);
     margin-top:10px;
@@ -168,7 +165,7 @@ h3{
   } 
  .top-heading{
     margin-top:60px;
-    margin-left:15%;
+    margin-left:300px;
   } 
   span{
     color:rgb(103, 207, 242);
@@ -225,65 +222,16 @@ h3{
     justify-content: space-between;
     margin-top:10px;
 }
-#book{
+.book{
     padding:10px;
     border:1px solid teal;
     border-radius: 10px;
     font-weight: 200;
     margin-bottom:20px;
 }
-#book>p{
+.book>p{
     margin-top:30px;
 }
-
-/* Creator Section Css */
-.heading{
-    width:70%;
-    /* border:1px solid red; */
-    height:auto;
-    margin:auto;
-    margin-bottom: 20px;
-}
-.heading>p{
-    line-height: 1.8;
-    font-weight: 200;
-    margin-top:5px;
-    margin-bottom: 10px;
-}
-#creator{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    width:70%;
-    height:auto;
-    /* border:1px solid blue; */
-    margin:auto;
-}
-#creator>div{
-    width:95%;
-    height:auto;
-    /* border:1px solid red; */
-    margin:auto;
-}
-#creator>div>img{
-    width:100%;
-    height:auto;
-   object-fit: cover;
-   border-radius: 10px;
-}
-
-/* Next trip section Css */
-
-.tour-item{
-    width:95%;
-    height:auto;
-    /* border:1px solid blue; */
-    margin:auto; 
-}
-.tour-item>img{
-    width:100%;
-    height:100%;
-    border-radius: 10px;
-  }
 
 /* Tourism Css */
 

@@ -1,48 +1,77 @@
 #signin-container {
 	display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    width: 30%;
-    margin: auto;
-    margin-top: 20px;
-    border: 1px solid black;
-    border-radius: 10px;
-    background-color: white;
-    padding: 20px;
-    gap: 10px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 30%;
+	margin: auto;
+	margin-top: 20px;
+	border: 1px solid black;
+	border-radius: 10px;
+	background-color: white;
+	padding: 20px;
+	gap: 20px;
+	font-family: helvetica, arial, sans-serif;
+	cursor: auto;
+}
+
+.face-book,
+.goo-gle,
+.but-ton,
+.in-puts input {
+	width: 90%;
+	padding: 10px;
+	border-radius: 5px !important;
 }
 .face-book {
-    width: 90%;
-    padding: 10px;
-    background-color: blue !important;
-    text-align: center;
-    color: white;
-    font-size: 16px;
-    border-radius: 5px !important;
+	background-color: rgb(74, 102, 160) !important;
+	text-align: center;
+	color: white;
+	font-size: 16px;
+	border-radius: 5px !important;
 }
-.goo-gle{
-    color: black !important;
-    font-size: 16px;
-    display:flex !important;
-    width: 90%;
-    padding:10px;
-    border: 1px solid black !important;
-    align-items: center;
-    margin: auto;
-    border-radius: 5px !important;
+.goo-gle {
+	color: black !important;
+	font-size: 16px;
+	display: flex !important;
+	border: 1px solid black !important;
+	align-items: center;
+	margin: auto;
+}
+.goo-gle img {
+	width: 20px;
+	height: 20px;
+	display: flex;
+	/* border: 1px solid black !important; */
+}
+.goo-gle p {
+	margin: 0;
+	margin-left: 5px;
+	text-align: center;
+}
+.in-puts {
+	display: grid;
+	gap: 20px;
+	width: 100%;
+	margin: auto;
+	/* border: 1px solid #333; */
+}
+.in-puts input {
+	margin: auto;
+	border: 1px solid #333;
+}
+.rem-me {
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+}
+.btn-div {
+	width: 108%;
+	display: block;
+	text-align: center;
 
+	/* border: 1px solid #333; */
 }
-.goo-gle img{
-    width: 20px;
-    height: 20px;
-    display: flex;  
-    border: 1px solid black !important;
-    
+but-ton {
+	color: rgb(242, 118, 105);
 }
-.goo-gle p{
-    margin: 0;
-    margin-left: 5px;
-    text-align: center;
-} 
-
