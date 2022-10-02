@@ -1,4 +1,4 @@
-*{
+/* *{
     
     margin: 0;
     padding: 0;
@@ -7,8 +7,12 @@
     font-family: circularairpro-bold,Helvetica,Arial,sans-serif;
     font-weight: 700;
     text-rendering: optimizeSpeed;
+
     
 }
+
+} */
+
 
 /* #navbar{
     position: sticky;
