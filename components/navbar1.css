@@ -1,5 +1,14 @@
 #navbar-container{
  
     background-color: #2f9bdb;
-    
+    z-index: 100;
+    margin: 0;
+    padding: 0;
 }
+
+/* #navbar{
+    position: sticky;
+    top: 0;
+    margin: 0 !important;
+    padding: 0;
+} */

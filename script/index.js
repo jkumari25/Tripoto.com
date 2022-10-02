@@ -99,7 +99,9 @@ luxury();
 
 // adding event listener to button:-
 
+
 let elements= document.querySelectorAll(".price>button");
+
 // adding the event listener by looping
 
 elements.forEach(function(ele) {
