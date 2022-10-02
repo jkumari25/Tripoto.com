@@ -6,3 +6,135 @@
     background-color: #2f9bdb;
     
 }
+
+
+.form-non-visible{
+    visibility:hidden;
+}
+
+.not-seen {
+    position: absolute;	
+    width: 100%;
+	background-color: transparent;
+    transition: all 0.4s;
+    z-index: 1;  
+}
+.seen {
+	background-color: #2f9bdb;
+    position: sticky;
+    top: 0;
+    transition: all 0.4s;
+    z-index: 100;
+}
+
+#navbar-container{
+    display: flex;
+    justify-content: space-between;
+    /* background-color: #2f9bdb; */
+    width: 100%;
+}
+
+.nav-dropdown ul{
+    padding: 10px;
+    cursor: pointer;
+    color: white;
+    margin-right: 30px;
+    margin-top: 5px;
+     font-family: circularairpro-bold,Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+.nav-dropdown ul li{
+    display: inline-block;
+    position: relative;
+    color: white;
+    font-size: 14px;
+}
+.headings{
+    color: white;
+    text-decoration: none;
+}
+
+.nav-dropdown ul li a{
+    display: block;
+    padding: 5px 10px;
+}
+.inner-list a{
+    color: black;
+    text-decoration: none;
+}
+
+.nav-dropdown ul ul{
+    position: absolute;
+    display: flex;
+    flex-direction:column;
+    top: 20px;
+    border: 1px solid rgba(121, 117, 117, 0.59);
+    visibility: hidden;
+    line-height: 25px;
+    width: 200px;
+    z-index: 1;
+    margin-left: -75px;
+    padding-top: 20px;
+    transition-delay: .2s;
+    border-radius: 5px;
+    background-color: white;
+    
+}
+.nav-dropdown ul ul li{
+    color: black;
+    opacity: 0.85;
+    font-weight: bold;
+    font-size: 14px;
+    text-rendering: optimizeSpeed;
+}
+
+.nav-dropdown ul li:hover ul{
+    visibility: visible;
+}
+
+#navbar-container input,button{
+    border: none;
+    outline: none;
+    height: 40px;
+}
+#in-visible{
+    display: flex;
+    margin: auto;
+}
+#navbar-container input{
+    cursor: text;
+    margin-right: 20px;
+    width: 470px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-left: 10px;
+    font-weight: normal;
+    color: black;
+}
+#navbar-container input::placeholder{
+    color: rgba(0, 0, 0, 0.812);
+}
+
+#navbar-container button{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: white !important;
+    padding: 5px;
+    margin-left: -20px;
+    margin-right: 20px;
+}
+#navbar-container form{
+    display: flex;
+    flex-direction:row;
+    height: 40px;
+    margin: 9px 10px;
+}
+
+.logo-img{
+    height: 44px;
+    width:135px;
+    display: block;
+    margin: 10px;
+    margin-left: 25px;
+}
