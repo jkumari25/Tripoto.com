@@ -6,13 +6,14 @@
 	width: 30%;
 	margin: auto;
 	margin-top: 20px;
-	border: 1px solid black;
+	border: 1px solid rgba(0, 0, 0, 0.116);
 	border-radius: 10px;
 	background-color: white;
 	padding: 20px;
 	gap: 20px;
 	font-family: helvetica, arial, sans-serif;
 	cursor: auto;
+	box-shadow: rgba(0,0,0,.2) 0 1px 3px 0!important;
 }
 
 .face-book,
@@ -31,12 +32,14 @@
 	border-radius: 5px !important;
 }
 .goo-gle {
-	color: black !important;
+	color: #7a7878;
 	font-size: 16px;
 	display: flex !important;
-	border: 1px solid black !important;
+	justify-content: center;
 	align-items: center;
 	margin: auto;
+	box-shadow: rgba(0,0,0,.2) 0 1px 3px 0!important;
+	border: none;
 }
 .goo-gle img {
 	width: 20px;
@@ -65,6 +68,10 @@
 	justify-content: space-between;
 	width: 90%;
 }
+
+ a {
+    color: #2f9bdb;
+}
 .btn-div {
 	width: 108%;
 	display: block;
@@ -72,6 +79,8 @@
 
 	/* border: 1px solid #333; */
 }
-but-ton {
-	color: rgb(242, 118, 105);
+.but-ton {
+	background-color: rgb(242, 118, 105);
+	border: none;
+	color: white;
 }

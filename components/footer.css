@@ -4,17 +4,21 @@
 	text-decoration: none;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	text-rendering: optimizeSpeed;
-	color: #333;
-	margin-top: 15px;
+	/* color: #333; */
+	/* margin-top: 15px; */
 }
 #footer-container {
 	border-top: 1px solid #dcdfe0;
+	 
+	
 }
 #footer-container .for-width {
 	display: grid;
 	grid-template-columns: 20% auto;
 	margin: auto;
 	border-top: 1px;
+	margin-top: 40px;
+	
 }
 .for-width {
 	width: 95%;
@@ -37,6 +41,7 @@
 	background-color: transparent;
 	cursor: pointer;
 	letter-spacing: 0.3px;
+	color: #333;
 }
 
 .foot-headings {
@@ -47,6 +52,7 @@
 .foot-social-div,
 .foot-end {
 	font-size: 12px;
+	
 }
 hr {
 	width: 75%;
@@ -57,13 +63,16 @@ hr {
 .foot-social-icons {
 	display: flex;
 	gap: 5px;
+	margin-top: 30px;
+	margin-bottom: 10px;;
+	
 }
 .foot-social-icons i:hover {
 	color: #2f9bdb;
 	cursor: pointer;
 }
 .foot-social-div img {
-	margin-bottom: -10px;
+	margin-bottom: 10px;
 	vertical-align: middle;
 	height: 40px;
 	cursor: pointer;
