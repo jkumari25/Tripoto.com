@@ -1,0 +1,86 @@
+#signin-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 30%;
+	margin: auto;
+	margin-top: 20px;
+	border: 1px solid rgba(0, 0, 0, 0.116);
+	border-radius: 10px;
+	background-color: white;
+	padding: 20px;
+	gap: 20px;
+	font-family: helvetica, arial, sans-serif;
+	cursor: auto;
+	box-shadow: rgba(0,0,0,.2) 0 1px 3px 0!important;
+}
+
+.face-book,
+.goo-gle,
+.but-ton,
+.in-puts input {
+	width: 90%;
+	padding: 10px;
+	border-radius: 5px !important;
+}
+.face-book {
+	background-color: rgb(74, 102, 160) !important;
+	text-align: center;
+	color: white;
+	font-size: 16px;
+	border-radius: 5px !important;
+}
+.goo-gle {
+	color: #7a7878;
+	font-size: 16px;
+	display: flex !important;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	box-shadow: rgba(0,0,0,.2) 0 1px 3px 0!important;
+	border: none;
+}
+.goo-gle img {
+	width: 20px;
+	height: 20px;
+	display: flex;
+	/* border: 1px solid black !important; */
+}
+.goo-gle p {
+	margin: 0;
+	margin-left: 5px;
+	text-align: center;
+}
+.in-puts {
+	display: grid;
+	gap: 20px;
+	width: 100%;
+	margin: auto;
+	/* border: 1px solid #333; */
+}
+.in-puts input {
+	margin: auto;
+	border: 1px solid #333;
+}
+.rem-me {
+	display: flex;
+	justify-content: space-between;
+	width: 90%;
+}
+
+ a {
+    color: #2f9bdb;
+}
+.btn-div {
+	width: 108%;
+	display: block;
+	text-align: center;
+
+	/* border: 1px solid #333; */
+}
+.but-ton {
+	background-color: rgb(242, 118, 105);
+	border: none;
+	color: white;
+}
