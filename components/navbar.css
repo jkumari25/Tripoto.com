@@ -60,6 +60,7 @@
 .nav-dropdown ul li a{
     display: block;
     padding: 5px 10px;
+    color: white;
 }
 
 .nav-dropdown ul ul{
