@@ -13,7 +13,7 @@
 	gap: 20px;
 	font-family: helvetica, arial, sans-serif;
 	cursor: auto;
-	box-shadow: rgba(0,0,0,.2) 0 1px 3px 0!important;
+	box-shadow: rgba(0, 0, 0, 0.2) 0 1px 3px 0 !important;
 }
 
 .face-book,
@@ -38,7 +38,7 @@
 	justify-content: center;
 	align-items: center;
 	margin: auto;
-	box-shadow: rgba(0,0,0,.2) 0 1px 3px 0!important;
+	box-shadow: rgba(0, 0, 0, 0.2) 0 1px 3px 0 !important;
 	border: none;
 }
 .goo-gle img {
@@ -69,8 +69,8 @@
 	width: 90%;
 }
 
- a {
-    color: #2f9bdb;
+a {
+	color: #2f9bdb;
 }
 .btn-div {
 	width: 108%;
@@ -83,4 +83,19 @@
 	background-color: rgb(242, 118, 105);
 	border: none;
 	color: white;
+	cursor: pointer;
 }
+#signin_container {
+	transition: all 0.5s;
+}
+#country-code-selector {
+	padding: 10px;
+	border: none !important;
+	margin-bottom: -20px;
+	outline: none;
+}
+
+.not-seen-button {
+	display:none;
+}
+

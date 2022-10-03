@@ -13,7 +13,7 @@
     <script src="https://kit.fontawesome.com/80506f962a.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <div id="g_navbar"></div>
+    <div id="navbar"></div>
     <div id="main-container">
         <div id="upload-container">
             <input type="text" placeholder="Add A title to tour blog" id="blog">
@@ -36,7 +36,7 @@
 <script type="module">
     import navbar from "./components/navbar.js"
     console.log(navbar())
-    document.getElementById("g_navbar").innerHTML = navbar()
+    document.getElementById("navbar").innerHTML = navbar()
     import footer from "./components/footer.js"
     document.getElementById("g_footer").innerHTML = footer()
 </script>
