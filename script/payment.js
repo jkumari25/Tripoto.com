@@ -35,8 +35,10 @@ function onClick() {
 
 let form = document.querySelector("form").addEventListener("submit",adddata)
 document.getElementById("submit").onclick = function () {
-  location.href = "checkout.html";
+  location.href = "./checkout.html";
 };
+
+
  function Product(name,price,city,date,count){
    this.name=name;
    this.price=price;
