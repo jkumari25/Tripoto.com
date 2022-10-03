@@ -12,3 +12,7 @@
     margin: 0 !important;
     padding: 0;
 } */
+#navbar{
+    position: sticky;
+    top: 0;
+}

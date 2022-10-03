@@ -21,31 +21,31 @@
                 <p>Log in with Google</p>
             </div>
             <div class="text-center color-grey padding-row-med">OR</div>
-            <div class="in-puts">
-                <input type="text" name="username" placeholder="EMAIL" class="form-control">
-                <input type="password" name="password" placeholder="PASSWORD" class="form-control margin-top-small">
+            <div class="in-puts" id="l1">
+                <input type="text" id="name" placeholder="EMAIL" class="form-control">
+                <input type="password" id="password" placeholder="PASSWORD" class="form-control margin-top-small">
             </div>
-            <div class="rem-me">
+            <div class="rem-me" id="l2">
                 <span><input type="checkbox" name="remember_me" id="checkbox" class="" checked="">
                     <label for="checkbox"></label>
                     <span class="">Remember me</span></span>
                 <a href="">Forgot password?</a>
             </div>
-            <div class="btn-div">
+            <div class="btn-div" id="l3">
                 <button type="submit" class="but-ton" onclick="login()">LOG IN</button>
             </div>
-            <div class="registerLinkText">Don't have an account?
-                <a href="">Sign Up</a>
+            <div class="registerLinkText" id="l4">Don't have an account?
+                <a href="" onclick="open_signup(event)">Sign Up</a>
             </div>
-            <!-- <div id="signup_container">
-                <div class="in-puts">
-                    <input type="text" name="data[User][full_name]" maxlength="100" placeholder="Name"
+            <!-- ********************** sign up page***************** -->
+                <div id="in1" class="in-puts not-seen-button">
+                    <input type="text" id="name" maxlength="100" placeholder="Name"
                         class="form-control margin-top-small">
-                    <input type="email" name="data[User][username]" placeholder="Email"
+                    <input type="email" id="email" placeholder="Email"
                         class="form-control margin-top-small">
-                    <input type="password" name="data[User][password]" placeholder="Password"
+                    <input type="password" id="password" placeholder="Password"
                         class="form-control margin-top-small">
-                    <select id="country-code-selector" class="border-none outline-none">
+                    <select id="country-code-selector">
                         <option value="91">India (+91)</option>
                         <option value="1">United States (+1)</option>
                         <option value="971">United Arab Emirates (+971)</option>
@@ -55,16 +55,20 @@
                         <option value="49">Germany (+49)</option>
                         <option value="977">Nepal (+977)</option>
                     </select>
-                    <input type="number" name="data[User][phone]" placeholder="Enter Phone no"
+                    <input type="number" placeholder="Enter Phone no" id="phone"
                         class="form-control hide-input-spinner">
                 </div>
-                <div class="margin-row-small">
+                <div id="in2" class="margin-row-small not-seen-button">
                     <input type="checkbox" name="data[User][sub_newsletter]" id="sub_newsletter" class="" checked="">
                     <label for="sub_newsletter"></label>
                     <span class="font-default vertical-top padding-left-small">Subscribe to the newsletter</span>
                 </div>
-                
-            </div> -->
+                <div id="in3" class="btn-div not-seen-button">
+                    <button type="submit" class="but-ton extra-btn-css" onclick="signup()">SiGN Up</button>
+                </div>
+                <div id="in4" class="registerLinkText not-seen-button">Already registered?
+                    <a href="" onclick="open_login(event)">Log in</a>
+                </div>
         </div>
 
     </body>
