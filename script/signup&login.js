@@ -4,6 +4,11 @@ function login() {
 	let name = document.getElementById("l_name").value;
 	let password = document.getElementById("l_password").value;
 
+	if (arr.length==0) {
+		alert("Please register");
+		return;
+	}
+
 	if (name == ""||password == "") {
 		alert("Fields cannot be empty");
 	} else {
