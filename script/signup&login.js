@@ -1,8 +1,8 @@
 
 function login() {
 	let arr = JSON.parse(localStorage.getItem("user")) || [];
-	let name = document.getElementById("name").value;
-	let password = document.getElementById("password").value;
+	let name = document.getElementById("l_name").value;
+	let password = document.getElementById("l_password").value;
 
 	if (name == ""||password == "") {
 		alert("Fields cannot be empty");
